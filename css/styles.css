@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    font-family: "Libre Baskerville", serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+
+width: 100%;
+min-height: 100vh;
+background: url("../img/mundo.jpeg");
+background-size: cover;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+#cont-botones{
+    width: 76%;
+    margin: 0% auto;
+    background: rgba(102, 54, 54, 0.219);
+    text-align: center;
+    padding: 40px;
+    border: 2px solid black;
+}
+
+h1{color: black;
+padding: 20px 0;
+}
+p{
+    color:white;
+    font-size: 22px;
+}
+hr{
+    margin: 40px 0 40px 0;
+}
+
+button{
+    padding: 12px 40px;
+    margin: 10px 15px;
+    background: lightslategrey;
+    border-radius: 35px;
+    color: black;
+    
+    cursor: pointer 
+    transition 5s;
+}
+
+button:hover{
+    background: black;
+    color: lightslategrey;
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+
+
+
